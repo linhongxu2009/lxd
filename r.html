@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<style>
+		#title{
+			text-align: center;
+			width: 95vw;
+			margin: 1vw;
+			padding: 2vw;
+			border: none;
+			font-size: 4vw;
+			border-radius: 20px 20px 20px 20px;
+			box-shadow: 0 0 10px #ccc;
+			outline: none;
+		}
+		#aaa{
+			font-size: 3vw;
+			text-align: left;
+			margin: 1vw;
+			width: 95vw;
+			padding: 1vw;
+			border: none;
+			border-radius: 20px 20px 20px 20px;
+			box-shadow: 0 0 10px #ccc;
+			outline: none;
+		}
+		#submit{
+			background: none;
+			font-size: 3vw;
+			text-align: center;
+			margin: 1vw;
+			width: 40vw;
+			padding: 1vw;
+			border: none;
+			border-radius: 20px 20px 20px 20px;
+			box-shadow: 0 0 10px #ccc;
+			outline: none;
+		}
+	</style>
+	<script src="公众号上传.js"></script>
+</head>
+<body>
+<form method="post" action="bb.php">
+<input id="title" class="thinput" type="text" name="htmltitle" placeholder="标题：">
+<textarea id="aaa" class="thinput" rows="30" name="htmlbody"placeholder="内容：(md语法切记空格)"></textarea>	
+<input id="submit" type="submit" name="submit" value="发表">
+</form>
+</body>
+</html>
